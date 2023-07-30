@@ -1,0 +1,58 @@
+.bg {
+    min-height: 100vh;
+    background-image: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* random background */
+.bg1 {
+    background-image: url("/public/image/bg/image1.jpg");
+}
+
+.bg2 {
+    background-image: url("/public/image/bg/image2.jpg");
+}
+
+.bg3 {
+    background-image: url("/public/image/bg/image3.jpg");
+}
+
+.bg4 {
+    background-image: url("/public/image/bg/image4.jpg");
+}
+
+.bg5 {
+    background-image: url("/public/image/bg/image5.jpg");
+}
+
+.bg6 {
+    background-image: url("/public/image/bg/image6.jpg");
+}
+
+/* planets background */
+
+.bg-planet1 {
+    background-image: url("/public/image/planets/planet1.png");
+}
+
+.bg-planet2 {
+    background-image: url("/public/image/planets/planet2.png");
+}
+
+.bg-planet3 {
+    background-image: url("/public/image/planets/planet3.png");
+}
+
+.bg-planet4 {
+    background-image: url("/public/image/planets/planet4.png");
+}
+
+.bg-planet5 {
+    background-image: url("/public/image/planets/planet5.png");
+}
+
+.bg-planet6 {
+    background-image: url("/public/image/planets/planet6.png");
+}

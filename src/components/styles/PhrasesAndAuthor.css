@@ -1,0 +1,83 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    margin-bottom: -120px;
+}
+
+.phrase {
+    background: linear-gradient(rgb(202, 199, 199), rgba(238, 238, 238, 0.45));
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 210px;
+}
+
+.author {
+    background: linear-gradient(rgb(202, 199, 199), rgba(238, 238, 238, 0.45));
+    z-index: 100;
+    min-width: 350px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(238, 238, 238, 0.45);
+    border-radius: 100%;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: rgb(35, 11, 53);
+    z-index: 80;
+}
+
+
+.card__container {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.planet {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    top: 70%;
+    position: absolute;
+    opacity: calc(.80);
+    animation-name: rotat;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+
+@keyframes rotat {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    text-align: left;
+    color: aliceblue;
+    z-index: 50;
+}

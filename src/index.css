@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    color: rgb(35, 11, 53);
+    margin: 0;
+    font-family: 'Bruno Ace', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 2.3rem;
+    margin: 0;
+    font-family: 'Audiowide', cursive;
+}
